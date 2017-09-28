@@ -68,22 +68,23 @@ a.contactitem:hover {
 
 /****** Web Design Section ******/
 
-div#design {
+div.design {
     background-color: #1b2631;
     padding: 50px;
     padding-top:70px;
     padding-bottom: 70px;  
 }
-div.design2 {
-    max-width: 1080px;
-    margin: 0 auto;
-}
+
+div.design2 {max-width: 1080px; margin:auto; }
 
 h2#designh2 {color: white; text-align: center; padding-bottom: 20px; font-weight: 700;}
+
 p#designp {color: white; padding-bottom: 20px; color: #d5d8dc}
-div.card {background: none; color: aliceblue; border: none; }
-div.card img {height: 300px; object-fit: cover; object-position: top;}
-.card img:hover {opacity: 0.8;cursor: pointer;}
+
+div.card {background: none; color: #d5d8dc; border-color: #007bff; padding: 20px; }
+div.card:hover {border-color:#28a745; color: #ffffff; }
+a.card-link {color: #fff; font-weight: 600;}
+a.card-link:hover {color: #28a745; font-weight: 600;}
 
 
 
